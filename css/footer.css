@@ -1,0 +1,26 @@
+footer {
+  background-color: #000;
+  height: 150px;
+}
+
+footer h2 {
+  color: #8f8f8f;
+  text-align: center;
+  font-size: 0.825rem;
+}
+
+.icons {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.icons i {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.icons i:hover {
+  font-size: 2.5rem;
+}

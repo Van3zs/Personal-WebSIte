@@ -1,0 +1,64 @@
+body {
+  font-family: "Fire Sans", Arial, Helvetica, sans-serif;
+  margin: 0px;
+  color: #141414;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #141414;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.subtitulo {
+  color: #e0e0e0;
+  font-size: 8rem;
+  text-transform: uppercase;
+  word-break: break-all;
+  line-height: 1;
+  max-width: 5ch;
+}
+.container {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+}
+
+@media (max-width: 800px) {
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+  }
+
+  .subtitulo::before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: url("/img/Deco.png") no-repeat center;
+    position: absolute;
+    top: 70px;
+    left: 10px;
+  }
+}
