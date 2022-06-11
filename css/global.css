@@ -24,11 +24,12 @@ a {
 
 img {
   max-width: 100%;
+  height: auto;
   display: block;
 }
 
 .subtitulo {
-  color: #e0e0e0;
+  color: #d7d7d7;
   font-size: 8rem;
   text-transform: uppercase;
   word-break: break-all;

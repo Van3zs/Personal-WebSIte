@@ -4,7 +4,7 @@
 .texto-intro h1 {
   font-size: 4.5rem;
   line-height: 1.125;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-style: bold;
   position: relative;
 }
@@ -45,12 +45,17 @@
     width: 35px;
     height: 10px;
     left: 0px;
+    top: -15px;
   }
 }
 
 @media (max-width: 500px) {
   .intro {
     grid-template-columns: 1fr;
+  }
+
+  .texto-intro p {
+    font-size: 1rem;
   }
   .foto-perfil {
     display: none;
